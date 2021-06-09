@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color:#f0f2f5 ;
+}
+a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #1877f2;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    width: 100%;
+    height: 20vh;
+    background: none;
+}
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main .letra-facebook .texto {
+    background: none;
+    display: flex;
+    position: relative;
+    float: right;
+    width: 30vw;
+    height: 100wh;
+    margin: 0 auto;
+}
+main .letra-facebook img{
+    width: 30vw;
+    height: 30vh;
+    float: right;
+}
+main .letra-facebook .texto p {
+    font-size: 2rem;
+}
+main .container-form {
+    width: 40vw;
+}
+main .formulario {
+    width: 30vw;
+    background-color: #ffffff;
+    font-size: 2rem;
+    padding: 10px;
+    border: solid #e0e2e5;
+    text-align: center;
+}
+main .formulario input{
+    width: 26vw;
+    display: list-item;
+    outline-color: #1877f2;
+    padding: 10px;
+    border-color: #dddfe2;
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+main .formulario .iniciar{
+    background-color:#1877f2;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+main .formulario .crear {
+    background-color: #42b72a;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+main .formulario .boton:hover {
+    cursor: pointer;
+}
+main .container-form .pagina{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #1c1e21;
+}
+main .container-form .pagina:hover {
+    text-decoration: underline #1c1e21;
+}
+main .container-form .texto-pagina {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #ffffff;
+}
+footer .idiomas {
+    list-style: none;
+    text-align: center;
+    margin: auto 5rem auto auto;
+    font-size: 1rem;
+}
+footer .idiomas li{
+    display: inline-block;
+    padding: 5px;
+}
+footer .idiomas li a{
+    color: black;
+}
+footer .copyright{
+    color: gray;
+    text-align: center;
+    font-size: 1rem;
+}
